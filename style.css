@@ -80,7 +80,7 @@ nav {
     letter-spacing: 2px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    transition: .15s ease-in-out;
+    transition: .6s ease-in-out;
     white-space: nowrap;
 }
 .nav-link:hover {
@@ -118,27 +118,27 @@ h1 {
     margin: 20px;
     border-radius: 15px;
     position: relative;
+    transition: .15s ease-in-out;
 }
 
 .post:hover {
     box-shadow: 0 0 100px white;
-    transition: all 0.6s;
 }
 
 .article-but {
-
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 60px;
-  margin: 10px 85px;
-  position: relative;
-  overflow: hidden;
-  border: 2px solid #fe6637;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #fe6637;
-  transition: .2s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 60px;
+    margin: 10px 85px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+    transition: .2s ease-in-out;
 }
+
 .article-but:before {
     content: "";
     background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
@@ -181,14 +181,14 @@ h1 {
     margin: 5px auto;
     padding: 6px;
     color: #000;
+    transition: .15s ease-in-out;
 }
 
 .social i {
-    padding: 7px;
+    padding: 7.5px;
 }
 
 .social:hover {
-    transition: 1s;
     background: #3f729b; 
     color: #fff;
 }
