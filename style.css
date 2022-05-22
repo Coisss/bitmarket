@@ -80,7 +80,7 @@ nav {
     letter-spacing: 2px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    transition: .6s ease-in-out;
+    transition: .15s ease-in-out;
     white-space: nowrap;
 }
 .nav-link:hover {
